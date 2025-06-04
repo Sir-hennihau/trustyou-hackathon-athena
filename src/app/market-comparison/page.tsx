@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import PromptInput from "@/components/PromptInput";
+import ModeSelector from "@/components/ModeSelector";
 
 export default function MarketComparison() {
   return (
@@ -8,6 +9,7 @@ export default function MarketComparison() {
         Market Comparison
       </h1>
       <PromptInput />
+      <ModeSelector />
     </Layout>
   );
 }
