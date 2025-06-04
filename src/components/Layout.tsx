@@ -15,7 +15,7 @@ export default function Layout({ children }: LayoutProps) {
     <div className="min-h-screen flex flex-col bg-white">
       {/* Navbar */}
       <nav className="bg-gray-100 text-gray-800 p-4 border-b">
-        <h1 className="text-xl font-bold">Data Explorer</h1>
+        <h1 className="text-xl font-bold">Hotel Market Data Explorer</h1>
       </nav>
 
       <div className="flex flex-1">
